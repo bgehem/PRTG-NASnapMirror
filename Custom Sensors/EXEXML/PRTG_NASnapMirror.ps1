@@ -102,7 +102,7 @@ add-type @"
         $Out +=         "<value>{0}</value>" -f $SnapMirrorInfo[0].'lag-time'
         $Out +=         "<unit>TimeSeconds</unit>"
         $Out +=        "<LimitMode>1</LimitMode>"
-        $Out +=        "<LimitMaxWarning>90000</LimitMaxWarning>"
+        $Out +=        "<LimitMaxWarning>100800</LimitMaxWarning>"
         $Out +=        "<LimitMaxError>180000</LimitMaxError>"
         $Out +=    "</result>"
         $Out +=    "<result>"
