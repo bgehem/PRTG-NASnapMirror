@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+  <ValueLookup id="prtg.customlookups.netapp.smhealth" desiredValue="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="PaeValueLookup.xsd">
+    <Lookups>
+      <Boolean state="Ok" value="1">
+        Yes
+      </Boolean>
+      <Boolean state="Error" value="0">
+        No
+      </Boolean>
+    </Lookups>
+  </ValueLookup>

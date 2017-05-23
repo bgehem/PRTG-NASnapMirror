@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+ <devicetemplate id="netappsnapmirror" name="Netapp SnapMirror" priority="1">
+   <create id="nasnapmirror" kind="exexml" meta="customexexmlscan">
+     <metadata>
+       <exefile>
+	       PRTG_NASnapMirror.ps1
+	   </exefile>
+       <exeparams>
+	      -Username %linuxuser -Password %linuxpassword -Controller %host -Discover
+	   </exeparams>
+     </metadata>
+     <createdata>
+        <intervalgroup>
+          0
+        </intervalgroup>
+        <interval>
+          <cell col="0">
+            1800
+          </cell>
+          <cell col="1">
+            30 minutes
+          </cell>
+        </interval>
+        <tags>
+          snapmirror
+        </tags>
+     </createdata>
+   </create>
+</devicetemplate>   
